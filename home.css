@@ -1,0 +1,338 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background: #343d36;
+}
+
+header {
+  background: linear-gradient(to right, #284703, #53663e, #555d4c);
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 45px;
+  margin-right: 50px;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+.nav-link {
+  color: #d8ffbf;
+  text-decoration: none;
+  font-size: 1.7rem;
+  font-family: "Fredoka", sans-serif;
+  transition: all 0.3s;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.nav-link:hover {
+  background: #56724e;
+}
+
+#logo {
+  color: #d8ffbf;
+  font-size: 2rem;
+  padding: 5px;
+  margin-left: 50px;
+  border: 2px solid #d8ffbf;
+  border-radius: 10px;
+  font-family: "Fredoka", sans-serif;
+}
+
+.login {
+  margin-top: 2px;
+  width: 70px;
+  height: 70px;
+}
+
+#sobre {
+  display: flex;
+  justify-content: center;
+}
+
+.introduction {
+  width: 900px;
+  border-radius: 10px;
+  margin-top: 40px;
+  padding: 10px 20px 10px 20px;
+  background-color: #134d2b;
+  color: white;
+}
+
+.introduction-h1,
+.servicos-h1 {
+  text-align: center;
+  font-size: 2rem;
+  font-family: Arial;
+  color: white;
+}
+
+.servicos-h1 {
+  font-size: 3rem;
+  margin-top: 100px;
+  padding-top: 20px;
+  font-family: monospace;
+}
+
+.introduction-paragraph {
+  font-size: 1.5rem;
+  font-family: Arial;
+}
+
+.consultoria,
+.gest,
+.dev,
+.education,
+.loja,
+.certificado {
+  background-color: #56724e;
+  padding: 10px;
+  border-radius: 15px;
+  transition: .3s ;
+}
+
+.container h2 {
+  text-align: center;
+}
+
+.big-container {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 900px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 30px;
+  margin-top: 100px;
+  background-color: #555d4c;
+  padding: 40px;
+  border-radius: 15px;
+}
+
+.container-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rep-img {
+  width: 50px;
+  height: 50px;
+}
+
+.servicos-h2 {
+  font-family: Arial;
+  font-size: 1.7rem;
+}
+
+.servicos-p {
+  font-family: Arial;
+  font-size: 1.1rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+.consultoria:hover {
+  margin-top: -20px;
+}
+
+.gest:hover {
+  margin-top: -20px;
+}
+
+.dev:hover {
+  margin-top: -20px;
+}
+
+.education:hover {
+  margin-top: -20px;
+}
+
+.loja:hover {
+  margin-top: -20px;
+}
+
+.certificado:hover {
+  margin-top: -20px;
+}
+
+.produto {
+  background-color: rgb(100, 91, 62);
+  width: 300px;
+  height: 400px;
+  margin-top: 50px;
+  border-radius: 15px;
+  transition: .3s;
+}
+
+.produto:hover {
+  width: 400px;
+  height: 500px;
+}
+
+#produtos {
+  padding: 50px 100px 0px 100px;
+}
+
+.produtos-container {
+  display: grid;
+  place-items: center;
+  grid-template-columns: repeat(2, 1fr);
+  width: 900px;
+  max-width: 900px;
+}
+
+.description {
+  text-align: center;
+  font-family: monospace;
+  color: white;
+  font-size: 2rem;
+}
+
+.produtos-container1 {
+  display: flex;
+  justify-content: center;
+}
+
+.produtos-h1 {
+  text-align: center;
+  color: white;
+  font-family: monospace;
+  font-size: 3rem;
+}
+
+.perfil-avaliacao {
+  width: 50px;
+  height: 50px;
+  background-color: black;
+  border-radius: 50%;
+}
+
+.arrumando-perfil {
+  display: flex;
+  align-items: center;
+  gap: 20px ;
+}
+
+.avaliacao-1 {
+  background-color: white;
+  width: 450px;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.cliente-nome {
+  font-size: 1.6rem;
+  font-family: Arial;
+}
+
+.cliente-avaliacao {
+  font-size: 1.5rem;
+  font-family: Arial;
+}
+
+.container-avaliacoes {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px ;
+}
+
+.avaliacao-h1 {
+  font-size: 3rem;
+  font-family: monospace;
+  text-align: center;
+  color: white;
+}
+
+.avaliacao-center {
+  max-width: 1100px;
+}
+
+#avaliacoes {
+  margin-top: 200px;
+}
+
+.blog-h1 {
+  font-size: 3rem;
+  font-family: monospace;
+  text-align: center;
+  color: white;
+  margin: 100px;
+}
+
+.container-blog1 {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 30px ;
+}
+
+.container-blog {
+  display: flex;
+  justify-content: center;
+}
+
+.publicacao-blog {
+  width: 900px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.blog-p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+}
+
+.post-blog {
+  display: block;
+}
+
+.post-h1 {
+  text-align: center;
+  font-size: 1.8rem;
+  font-family: monospace;
+}
+
+.post-p {
+  font-family: Arial;
+  font-size: 1.5rem;
+}
+
+footer {
+  background-color: black;
+  margin: 0px;
+  padding: 0px;
+}
+
+.footer-h2, h3 {
+  color: white;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+.footer-h2 {
+  padding-top: 30px;
+}
+
+.last-h3 {
+  padding-bottom: 30px;
+}
